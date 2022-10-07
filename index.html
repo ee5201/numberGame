@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NumberGame</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="main-title"><em>도전</em> 할거야?? 그럼 어디 한번 해봐~!</h1>
+    <h1 class="content">Let's guess what the number it is!</h1>
+    <div class="main_img">
+      <img src="./images/mikael-kristenson-EXuKQaf3Ei8-unsplash.jpg">
+    </div>
+    <h2 id="userResult" class="result_content">쫄리면 마시랑께~</h2>
+    <h2 id="user_chance">너에게 남은 기회:5번</h2>
+    <div class="row_content">
+      <div class="input_box">
+        <input type="number" placeholder="1~100까지만 입력해주세요" id="userInput">
+      </div>
+      <div class="input_box-submit">
+        <button id="playButton">Go</button>
+      </div>
+    </div>
+  </div>
+  <button id="ResetButton">리셋</button>
+  <script src="./main.js"></script>
+</body>
+</html>
