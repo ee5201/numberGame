@@ -74,7 +74,7 @@ function Reset(){
   gameOver = false;
   PlayButton.disabled = false
   UserChance.textContent = `너에게 남은 기회 :${chance}번`
-
+  UserResult.textContent = "다시하는겨? 이번에는 맞춰봥~😛"
 }
 
 Picknum()
