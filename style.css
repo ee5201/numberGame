@@ -79,16 +79,21 @@ button{
     margin-left: 0em;
   }
   input{
-    width:12em;height:3em;font-size:20px;
+    width:12em;height:1em;font-size:20px;
     margin-top: -1em;
     margin-left: 3em;
   }
 
   .input_box-submit{
-    margin-top: 3.8em;
-    margin-left: -16em;
+    margin-top: 1.8em;
+    margin-left: -14em;
   }
 
-  
+  button{
+    font-size: 20pt;
+  }
+  #ResetButton{
+    margin-left: 6em;
+  }
   
 }
